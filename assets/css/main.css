@@ -216,6 +216,7 @@ input, select, textarea {
 
 	header {
 		margin-bottom: 1.5em;
+
 	}
 
 		header > p {
@@ -2089,11 +2090,12 @@ input, select, textarea {
 			top: 0;
 			z-index: 1;
 			box-shadow: inset 0px 0px 0px 1px #e8e8e8;
-			background: #f6f8fb url("images/image-wrapper.svg");
+			background: #f6f8fb url('../../fragmentos1.jpg');
 		}
 
 	#header-wrapper {
-		position: relative;
+		background: url('../../images/promo.jpg') no-repeat center center fixed;
+	/*	position: relative;
 		padding: 4em 0 2em 0;
 		background-image: url("images/header.svg");
 		background-image: url("images/overlay.png"), url("images/header.svg"), -moz-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
@@ -2103,17 +2105,17 @@ input, select, textarea {
 		background-color: #f08c89;
 		background-size: 100% 620%;
 		background-size: 128px 128px, 100% 620%, auto;
-		background-repeat: repeat, no-repeat, no-repeat;
+		background-repeat: repeat, no-repeat, no-repeat;*/
 	}
 
 	.homepage #header-wrapper {
 		padding: 10em 0 6em 0;
-		background-size: 128px 128px, 100% 100%, auto;
+		
 	}
 
 	#promo-wrapper {
 		position: relative;
-		background-image: url("images/overlay.png"), url("../../images/promo.jpg");
+		background-image: url("images/overlay.png"), url('../../images/promo1.jpg');
 		background-size: 192px 192px, cover;
 		background-position: top left, center center;
 		color: #fff;
@@ -2126,7 +2128,7 @@ input, select, textarea {
 		position: relative;
 		border-top: solid 1px #c2c7cc;
 		padding: 6em 0 6em 0;
-		background-image: url("images/overlay.png"), url("images/footer.svg");
+		background-image: url("images/overlay.png"), url("../../fragmentos1.jpg");
 		background-size: 128px 128px,				100% 100%;
 	}
 
@@ -2298,6 +2300,7 @@ input, select, textarea {
 		#hero p {
 			font-size: 1.5em;
 			line-height: 1.5em;
+			
 		}
 
 		#hero .button {
@@ -2858,10 +2861,10 @@ input, select, textarea {
 				-webkit-transition: -webkit-transform 0.5s ease;
 				-ms-transition: -ms-transform 0.5s ease;
 				transition: transform 0.5s ease;
-				background-image: url("images/overlay.png"), url("images/navPanel.svg"), -moz-linear-gradient(top, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.25));
-				background-image: url("images/overlay.png"), url("images/navPanel.svg"), -webkit-linear-gradient(top, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.25));
-				background-image: url("images/overlay.png"), url("images/navPanel.svg"), -ms-linear-gradient(top, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.25));
-				background-image: url("images/overlay.png"), url("images/navPanel.svg"), linear-gradient(top, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.25));
+				background-image: url("../../fragmentos1.jpg"), url("../../fragmentos1.jpg"), -moz-linear-gradient(top, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.25));
+				background-image: url("../../fragmentos1.jpg"), url("../../fragmentos1.jpg"), -webkit-linear-gradient(top, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.25));
+				background-image: url("../../fragmentos1.jpg"), url("../../fragmentos1.jpg"), -ms-linear-gradient(top, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.25));
+				background-image: url("../../fragmentos1.jpg"), url("../../fragmentos1.jpg"), linear-gradient(top, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.25));
 				display: block;
 				left: 0;
 				overflow-y: auto;
