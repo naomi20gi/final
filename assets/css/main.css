@@ -2081,16 +2081,7 @@ input, select, textarea {
 		}
 
 		.image-wrapper.first:before {
-			content: '';
-			display: block;
-			width: 2000%;
-			height: 100%;
-			position: absolute;
-			left: -1000%;
-			top: 0;
-			z-index: 1;
-			box-shadow: inset 0px 0px 0px 1px #e8e8e8;
-			background: #f6f8fb url('../../fragmentos1.jpg');
+			background: url('../../fragmentos1.jpg') no-repeat center center fixed;
 		}
 
 	#header-wrapper {
@@ -2129,7 +2120,7 @@ input, select, textarea {
 		border-top: solid 1px #c2c7cc;
 		padding: 6em 0 6em 0;
 		background-image: url("../../fragmentos1.jpg");
-		background-size: 128px 128px,				100% 100%;
+		background-size: 128px 128px,100% 100%;
 	}
 
 /* Header */
@@ -2348,7 +2339,7 @@ input, select, textarea {
 		#promo .button {
 			background: #fff;
 			border-color: rgba(255, 255, 255, 0);
-			color: #27636B;
+			color: #f08c89;
 			font-size: 1.25em;
 		}
 
@@ -3070,4 +3061,8 @@ input, select, textarea {
 				margin-bottom: 1em;
 			}
 
+	}
+
+	.textright{
+		text-align: right;
 	}
